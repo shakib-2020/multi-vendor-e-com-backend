@@ -1,5 +1,6 @@
 import expressAsyncHandler from "express-async-handler";
 import { Product } from "../models/productModel.js";
+import { AppError } from "../middlewares/errorHandler.js";
 
 // @desc Create a new product
 // @router /api/product
